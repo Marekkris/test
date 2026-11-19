@@ -12,7 +12,13 @@ public class Main {
             System.out.println("i = " + i);
         }
 
-        System.out.println("Hello git!");
+        System.out.print("Hello git!");
+        var a=21;
+        int b=11;
+        System.out.print(Sum(a,b));
 
+    }
+    static Integer Sum(int a,int b){
+        return a+b;
     }
 }
